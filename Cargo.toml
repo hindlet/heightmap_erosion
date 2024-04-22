@@ -1,0 +1,12 @@
+[package]
+name = "heightmap_erosion"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+maths = {git = "https://github.com/hindlet/rust_maths.git", package = "rust_maths", version = "*"}
+vulkano = "0.34"
+vulkano-shaders = "0.34.0"
+winit = "0.28"
